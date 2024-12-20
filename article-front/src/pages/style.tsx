@@ -17,5 +17,6 @@ flex-direction: column;
 padding-left: 60px;
 padding-right: 60px;
 align-items: center;
-padding-bottom: 100px;
+padding-bottom: 20px;
+font-size: 35px;
 `
