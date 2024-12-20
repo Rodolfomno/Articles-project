@@ -12,3 +12,7 @@ Route::get('/', function () {
 Route::get('/articles', [ArticleController::class, 'index']);
 Route::get('/articles/{article}', [ArticleController::class, 'show']);
 
+Route::group(['middleware' => 'cors'], function () {
+    Route::get('art', [ArticleController::class, 'index']);
+});
+
