@@ -57,3 +57,48 @@ Populando o bacno de dados:
 php artisan migrate:fresh --seed
 
 ```
+
+Para inicializar a aplicação, digite
+
+```
+
+composer run dev
+
+```
+
+Servidor agora está rodando!
+
+
+## Inicializando o front
+
+Em outro linux terminal, digite:
+
+```
+
+cd Articles-front
+
+```
+
+Instale as dependencias
+
+No seu terminal digite:
+
+```
+
+npm install
+
+```
+
+Para iniciar o front:
+
+No seu terminal digite:
+
+```
+
+npm run dev
+
+```
+
+
+
+Pronto, agora você pode listar e ver artigos completos!
