@@ -30,13 +30,13 @@ export function Table ({ data }: { data: DataType[] }) {
             cell: (row: { title: string, id: number }) => <div
             style={{ cursor: 'pointer' }}
             onClick={() => onClick(row.id)}>{ row.title }</div>,
+            sortable: true,
         },
         {
             name: <Title title="Resume" />,
             selector: (row: { resume: string }) => row.resume,
             sortable: true,
         }
-
     ]
 
     return (
