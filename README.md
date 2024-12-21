@@ -102,3 +102,9 @@ npm run dev
 
 
 Pronto, agora você pode listar e ver artigos completos!
+
+
+## Observações
+
+
+Se a requisição do front não tiver êxito, ele usará um mock de teste para exibir as informações.
