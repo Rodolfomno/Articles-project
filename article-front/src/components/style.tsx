@@ -6,4 +6,5 @@ export const TableContainer = styled.div`
     width: 100%;
     border: 1px solid rgba(022, 0, 0, .5);
     border-radius: 8px;
+    width: 700px;
 `
