@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
-import { HomePage } from './pages/homePage'
+import { HomePage } from './pages/HomePage'
+import { ArticleInfoPage } from "./pages/ArticleInfoPage"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index path="/" element={<HomePage />} />
+        <Route index path="/:id" element={<ArticleInfoPage />} />
       </Routes>
     </BrowserRouter>
     </>
